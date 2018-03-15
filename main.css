@@ -1,0 +1,111 @@
+#background {
+	background-image: url('images/background.jpeg');
+	height: 100vh;
+	width: 100vw;
+
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+	.products {
+		
+	}
+}
+
+#logo-img {
+	height: 15%;
+	width: 15%;
+	text-align: center;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+
+}
+
+#logo{
+	text-align: center;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0;
+	};
+
+	100% { opacity: 1;
+
+	}
+}
+
+h3 {
+	font-family: cursive;
+	text-align: center;
+	color: #4b575c;
+	margin-top: 2%;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+}
+
+.products {
+display: inline-block;
+margin-left: 32%;
+}
+
+
+#recycled { 
+	background-image: url('Images/recycled.jpg');
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+ }
+
+ #vellum {
+ 	background-image: url('Images/vellum.jpg');
+ 	display: inline-block;
+	height: 100px;
+	width: 100px;
+ }
+
+ #handmade {
+ 	background-image: url('Images/handmade.jpeg');
+ 	display: inline-block;
+	height: 100px;
+	width: 100px;
+ }
+
+ #cardboard {
+ 	background-image: url('Images/cardboard.jpg');
+ 	display: inline-block;
+	height: 100px;
+	width: 100px;
+ }
+
+ #cardstock {
+ 	background-image: url('Images/cardstock.png');
+ 	display: inline-block;
+	height: 100px;
+	width: 100px;
+ }
+
+
+.signUp {
+	text-align: center;
+	margin-top: 3%;
+}
+
+input[type = text] {
+	height: 80%;
+	width: 25%;
+	left: 30%;
+}
+
+
+input[type = submit] {
+	height: 20%;
+	width: 25%;
+	left: 30%;
+
+}
+
+#MD-footer {
+	border-color: #4b575c;
+	border-style: solid;
+	margin-top: 8%;
+}
